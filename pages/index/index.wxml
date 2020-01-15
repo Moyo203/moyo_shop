@@ -1,0 +1,9 @@
+<view class='nav'>
+<view class='inp'>{{searchText}}</view>
+</view>
+<view class='banner'>
+<image src='/assets/imgs/11.jpg' class='img1'></image>
+</view>
+<view class='main'>
+<view class='item' wx:for="{{navs}}" wx:key="id">{{item.name}}</view>
+</view>
