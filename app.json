@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/category/index",       
     "pages/logs/logs"
   ],
   "window": {
@@ -18,7 +19,7 @@
       "selectedIconPath": "assets/icons/home-o.png"
     },
     {
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/category/index",
       "text": "分类",
       "iconPath": "assets/icons/category.png",
       "selectedIconPath": "assets/icons/category-o.png"
