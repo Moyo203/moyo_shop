@@ -11,7 +11,9 @@ Page({
       {id:1,name:'编辑'},
       {id:1,name:'工具'}
       ],
-      swiper_list:[]
+      swiper_list:[],
+      catitems_list:[],
+      floor_list:[]
   },
 
   /**
@@ -26,7 +28,25 @@ Page({
         })
         console.log(res)
       }
-    })
+    }),
+      wx.request({
+        url: 'https://api.zbztb.cn/api/public/v1/home/catitems',
+        success: (res) => {
+          this.setData({
+            catitems_list: res.data.message
+          })
+          console.log(res)
+        }
+      }),
+      wx.request({
+      url: 'https://api.zbztb.cn/api/public/v1/home/floordata',
+        success: (res) => {
+          // this.setData({
+          //   floor_list: res.data.message
+          // })
+          console.log(res)
+        }
+      })
   },
 
   /**

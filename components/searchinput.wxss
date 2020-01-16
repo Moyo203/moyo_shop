@@ -1,0 +1,13 @@
+/* components/searchinput.wxss */
+.inp{
+  background-color: #fff;
+  text-align: center;
+  height: 80rpx;
+  width: 700rpx;
+  font-size: 32rpx;
+  color: #767676;
+  border-radius: 5rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
