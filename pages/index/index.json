@@ -1,6 +1,7 @@
 {
   "usingComponents": {
-    "search-input":"/components/searchinput"
+    "search-input":"/components/searchinput",
+    "floor-item":"/components/flooritem"
   },
   "backgroundTextStyle": "light",
   "navigationBarBackgroundColor": "#eb4450",

@@ -26,7 +26,7 @@ Page({
         this.setData({
           swiper_list:res.data.message
         })
-        console.log(res)
+        // console.log(res)
       }
     }),
       wx.request({
@@ -35,15 +35,15 @@ Page({
           this.setData({
             catitems_list: res.data.message
           })
-          console.log(res)
+          // console.log(res)
         }
       }),
       wx.request({
       url: 'https://api.zbztb.cn/api/public/v1/home/floordata',
         success: (res) => {
-          // this.setData({
-          //   floor_list: res.data.message
-          // })
+          this.setData({
+            floor_list: res.data.message
+          })
           console.log(res)
         }
       })

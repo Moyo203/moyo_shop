@@ -1,0 +1,80 @@
+/* components/flooritem.wxss */
+
+.floordata {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 18rpx;
+  position: relative;
+  margin-bottom: 420rpx;
+}
+
+/* .floordata image{
+    width: 232rpx;
+  height: 188rpx;
+} */
+
+.active image {
+  width: 232rpx;
+  height: 386rpx;
+  position: absolute;
+  top: 0rpx;
+  left: 20rpx;
+}
+
+.active2 image {
+  width: 233rpx;
+  height: 188rpx;
+  position: absolute;
+  top: 0rpx;
+  left: 266rpx;
+}
+
+.active3 image {
+  width: 223rpx;
+  height: 188rpx;
+  position: absolute;
+  top: 0rpx;
+  right: 20rpx;
+}
+
+.active4 image {
+  width: 233rpx;
+  height: 188rpx;
+  position: absolute;
+  top: 200rpx;
+  left: 266rpx;
+}
+
+.active5 image {
+  width: 223rpx;
+  height: 188rpx;
+  position: absolute;
+  top: 200rpx;
+  right: 20rpx;
+}
+
+.shishang image {
+  width: 100%;
+  height: 59rpx;
+}
+
+.col-100 {
+  flex: 0 0 100%;
+}
+
+.col-50 {
+  flex: 0 0 50%;
+}
+
+.col-30 {
+  flex: 0 0 33.33%;
+}
+
+.col-25 {
+  flex: 0 0 25%;
+}
+
+.col-20 {
+  flex: 0 0 20%;
+}

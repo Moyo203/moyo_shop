@@ -1,0 +1,23 @@
+<!--components/flooritem.wxml-->
+<view>
+
+<view class='shishang'>
+<image src="{{data.floor_title.image_src}}"></image>
+</view>
+
+<view class='floordata'>
+<view wx:for="{{data.product_list}}" wx:key="index" wx:for-item="v">
+  <view class="{{index == 0 ? 'active':(index == 1 ? 'active2' :(index ==2 ? 'active3' :(index == 3?'active4':(index ==4?'active5':''))))}}">
+    <image src='{{v.image_src}}'></image>
+  </view>
+  <!-- <view class='col-30' wx:if="index===1 && index===3">
+      <image src='{{v.image_src}}'></image>
+  </view>
+  <view class='col-30' wx:if="index===2 && index===4">
+  <image src='{{v.image_src}}'></image>
+  </view> -->
+</view>
+</view>
+
+
+</view>

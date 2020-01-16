@@ -1,6 +1,6 @@
 <view class='nav'>
   <!-- <view class='inp'>{{searchText}}</view> -->
-  <search-input/>
+  <search-input title="{{'搜索'}}"/>
 </view>
 <view class='banner'>
   <swiper indicator-dots='true' indicator-color="#73747c" circular='true' autoplay='true' interval='4000'>
@@ -17,20 +17,6 @@
   </view>
 </view>
 
-<view class='shishang'>
-<image src="https://api.zbztb.cn/pyg/pic_floor01_title.png"></image>
-</view>
-
-<view class='floordata'>
-  <view class='col-30'>
-    <image src='https://api.zbztb.cn/pyg/pic_floor01_1@2x.png'></image>
-  </view>
-  <view class='col-30'>
-    <image src='https://api.zbztb.cn/pyg/pic_floor01_2@2x.png'></image>
-    <image src='https://api.zbztb.cn/pyg/pic_floor01_3@2x.png'></image>
-  </view>
-  <view class='col-30'>
-    <image src='https://api.zbztb.cn/pyg/pic_floor01_4@2x.png'></image>
-    <image src='https://api.zbztb.cn/pyg/pic_floor01_5@2x.png'></image>
-  </view>
+<view >
+ <floor-item wx:for="{{floor_list}}" wx:key="index"  data="{{item}}" />
 </view>
