@@ -2,15 +2,9 @@
   <view class='inp'>{{searchText}}</view>
 </view>
 <view class='banner'>
-  <swiper indicator-dots='true' indicator-color="#ff0000" autoplay='true' interval='4000'>
-    <swiper-item>
-      <image src='https://api.zbztb.cn/pyg/banner1.png'></image>
-    </swiper-item>
-    <swiper-item>
-      <image src='https://api.zbztb.cn/pyg/banner2.png'></image>
-    </swiper-item>
-    <swiper-item>
-      <image src='https://api.zbztb.cn/pyg/banner3.png'></image>
+  <swiper indicator-dots='true' indicator-color="#73747c" circular='true' autoplay='true' interval='4000'>
+    <swiper-item wx:for="{{swiper_list}}" wx:key="goods_id">
+      <image src='{{item.image_src}}'></image>
     </swiper-item>
   </swiper>
 </view>

@@ -10,14 +10,23 @@ Page({
       {id:1,name:'文件'},
       {id:1,name:'编辑'},
       {id:1,name:'工具'}
-      ]
+      ],
+      swiper_list:[]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    wx.request({
+      url: 'https://api.zbztb.cn/api/public/v1/home/swiperdata',
+      success:(res)=>{
+        this.setData({
+          swiper_list:res.data.message
+        })
+        console.log(res)
+      }
+    })
   },
 
   /**
