@@ -2,7 +2,25 @@
 .good image{
   width: 191rpx;
   height: 191rpx;
+
+}
+.left{
+  margin-left: 40rpx;
+   flex: 0 0 33.33%;
 }
 .good{
   font-size: 24rpx;
+  color: #434343;
+  margin-top: 20rpx;
+  display: flex;
+}
+.right{
+  margin-top: 15rpx;
+  margin-right: 26rpx;
+  width: 463rpx;
+  flex: 1;
+}
+.money{
+  color: #EA4350;
+  margin-top: 57rpx;
 }
