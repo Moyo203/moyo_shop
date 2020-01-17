@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "good-item": "/components/good"
+  },
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#eb4450",
+  "navigationBarTitleText": "商品列表",
+  "navigationBarTextStyle": "black"
+}

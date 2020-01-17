@@ -1,0 +1,51 @@
+/* components/house.wxss */
+
+.kind {
+  color: #575757;
+  font-size: 26rpx;
+  margin-top: 20rpx;
+  width: 520rpx;
+  text-align: center;
+  float: left;
+}
+
+.tele-item image {
+  height: 120rpx;
+  width: 120rpx;
+}
+
+.tele-item {
+  color: #2e2e2e;
+  font-size: 21rpx;
+  text-align: center;
+ float: left;
+ margin: 25rpx;
+}
+
+.tele {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-around; */
+  padding: 0 30rpx;
+  width: 568rpx;
+}
+
+.col-100 {
+  flex: 0 0 100%;
+}
+
+.col-50 {
+  flex: 0 0 50%;
+}
+
+.col-30 {
+  flex: 0 0 33.33%;
+}
+
+.col-25 {
+  flex: 0 0 25%;
+}
+
+.col-20 {
+  flex: 0 0 20%;
+}

@@ -1,0 +1,15 @@
+<!--components/house.wxml-->
+<view class='all'>
+
+  <view class='tele'>
+    <view wx:for="{{data.children}}" wx:key="index" wx:for-item="v">
+      <view class='kind '>
+        / {{v.cat_name}} /
+      </view>
+      <view class='tele-item' wx:for="{{v.children}}" wx:key="index" wx:for-item="w">
+        <image src='{{w.cat_icon}}'></image>
+        <view>{{w.cat_name}}</view>
+      </view>
+    </view>
+  </view>
+</view>

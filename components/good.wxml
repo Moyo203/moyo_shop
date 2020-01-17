@@ -1,0 +1,6 @@
+<!--components/good.wxml-->
+<view class='good'>
+<image src='http://image2.suning.cn/uimg/b2c/newcatentries/0070078057-000000000634917020_1_800x800.jpg'></image>
+<view>创维（Skyworth）42X6 42英寸10核智能酷开网络平板液晶电视</view>
+<view>￥3999</view>
+</view>

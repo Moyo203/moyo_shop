@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/goods_list/index",
     "pages/category/index",       
+    "pages/index/index",
     "pages/logs/logs"
   ],
   "window": {

@@ -1,34 +1,18 @@
-// pages/category/index.js
+// pages/goods_list/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    categories_list:[],
-    curr:0
+
   },
 
-  handleTap: function (e) {
-    // console.table(e)
-    this.setData({
-      curr:e.currentTarget.dataset.id
-    })
-    // console.log(e.currentTarget.dataset.id);
-  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.request({
-      url: 'https://api.zbztb.cn/api/public/v1/categories',
-      success: (res) => {
-      this.setData({
-        categories_list:res.data.message
-      })
-        console.log(res)
-      }
-    })
+
   },
 
   /**

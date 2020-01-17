@@ -2,55 +2,16 @@
 <view class='nav'>
   <view class='inp'>搜索</view>
 </view>
+
+
+
+<view class='zong'>
 <view class='scro'>
   <scroll-view scroll-y="true" bindscrolltoupper="upper" bindscrolltolower="lower" >
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-2">222</view>
-    <view class="scroll-view-item demo-text-2">222</view>
-    <view class="scroll-view-item demo-text-2">222</view>
-    <view class="scroll-view-item demo-text-2">222</view>
-    <view class="scroll-view-item demo-text-2">222</view>
-    <view class="scroll-view-item demo-text-2">222</view>
-    <view class="scroll-view-item demo-text-2">222</view>
-    <view class="scroll-view-item demo-text-2">222</view>
-    <view class="scroll-view-item demo-text-2">222</view>
-    <view class="scroll-view-item demo-text-2">222</view>
-    <view class="scroll-view-item demo-text-2">222</view>
-    <view class="scroll-view-item demo-text-2">222</view>
-    <view class="scroll-view-item demo-text-2">222</view>
-    <view class="scroll-view-item demo-text-2">222</view>
-    <view class="scroll-view-item demo-text-2">222</view>
-    <view class="scroll-view-item demo-text-2">222</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-1">111</view>
-    <view class="scroll-view-item demo-text-2">222</view>
-
+    <view class="scroll-item" wx:for="{{categories_list}}" wx:key="index" bindtap='handleTap' data-id="{{index}}">{{item.cat_name}}</view>
   </scroll-view>
+</view>
+<view class='species'>
+<house-item wx:for="{{categories_list}}" wx:key="index" data="{{item}}" wx:if="{{index==curr}}"/>
+</view>
 </view>

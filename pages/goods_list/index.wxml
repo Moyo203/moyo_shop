@@ -1,0 +1,13 @@
+<!--pages/goods_list/index.wxml-->
+<view class='nav'>
+  <view class='inp'>搜索</view>
+</view>
+<view class='title'>
+  <view class='col-30 active'>综合</view>
+  <view class='col-30'>销量</view>
+  <view class='col-30'>循环</view>
+</view>
+
+<view>
+<good-item/>
+</view>

@@ -1,0 +1,8 @@
+/* components/good.wxss */
+.good image{
+  width: 191rpx;
+  height: 191rpx;
+}
+.good{
+  font-size: 24rpx;
+}

@@ -6,6 +6,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: fixed;
+  left: 0;
+  top:0； 
+  
+
 }
 .inp{
   background-color: #fff;
@@ -19,8 +24,26 @@
   align-items: center;
   justify-content: center;
 }
+.scro{
+ position: fixed;
+ left: 0;
+  top:0;
+ margin-top: 100rpx;
+}
 .scro scroll-view{
   background-color: #f3f3f3;
-  height: 1000rpx;
+  height: 1008rpx;
   width: 182rpx;
+ 
+}
+.scroll-item{
+  font-size: 28rpx;
+  margin: 30rpx 35rpx;
+  color: #585858;
+}
+.zong{
+  display: flex
+}
+.species{
+  margin: 110rpx 0 50rpx 180rpx;
 }
